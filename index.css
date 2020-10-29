@@ -42,8 +42,6 @@ blockquote, q {
 }
 *{
     box-sizing:border-box;
-    border: 1px solid black;
-     
 }
 body{
     font-family: "Roboto Mono";
@@ -52,7 +50,11 @@ body{
    
 }
 
- 
+section{
+    padding:4% 0;
+    width:90%;
+    margin:0 auto;
+} 
 
  
  .plan{
