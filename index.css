@@ -42,7 +42,7 @@ blockquote, q {
 }
 *{
     box-sizing:border-box;
-
+    border: 1px solid black;
      
 }
 body{
@@ -51,31 +51,46 @@ body{
     line-height: 1.5;
    
 }
-nav a{
-   display: inline-block;
-   width: 12%;
-   text-align: center;
-   padding:4px 1%;
-   color: white;
-   border-radius: 8px;
-   margin:2% 9%;
-   text-decoration: none;
-   font-size: 110%;
-   
-}
+
+ 
+
+ 
  .plan{
      background-color: #FF764E;
+     display: inline-block;
+     height: 10%;
+     width: 13%;
+     text-decoration: none;
+     margin: 5% 10%;
+     text-align: center;
+     color: #ffffff;
+     border-radius: 10px;
  }
  .learn{
      background-color: #5ed3eb;
-     
+     display: inline-block;
+     height: 10%;
+     width: 13%;
+     text-decoration: none;
+     margin: 5% 10%;
+     text-align: center;
+     color: #ffffff;
+     border-radius: 10px;
  }
 .get{
     background-color: #FFCD69;
-    word-spacing: 40px;
+    display: inline-block;
+     height: 10%;
+     width: 13%;
+     text-decoration: none;
+     margin: 5% 9%;
+     text-align: center;
+     color: #ffffff;
+     border-radius: 10px;
+     padding: 0 3%;
 }
 .header{
-    width: 100%;
+    width: 100%;    
 }
 .headerpic{
     clip-path: circle(48%);
@@ -89,7 +104,7 @@ nav a{
     font-size: 110%;
 }
 .p2{
-    padding: 0% 20%;
+    padding: 0% 10%;
 }
 .header h1{
     text-align: center;
